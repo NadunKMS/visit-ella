@@ -88,15 +88,15 @@ const posts = (await getCollection('blog')).sort(
 	<body>
 		<Header />
 		<main>
-			<section class="relative overflow-hidden bg-cover bg-no-repeat">
+			<section>
 				<ul>
 					{
 						posts.map((post: { slug: any; data: { heroImage: string | null | undefined; title: unknown; pubDate: Date; }; }) => (
-							<li class="hover:scale-[1.02] transition duration-300 w-full" >
+							<li>
 								<a href={`/blog/${post.slug}/`}>
-									<img width={720} height={360} src={post.data.heroImage} alt=""/>
-									<h4 class="title px-2">{post.data.title}</h4>
-									<p class="date px-2 text-sm">
+									<img width={720} height={360} src={post.data.heroImage} alt="" />
+								<h4 class="title">{post.data.title}</h4>
+									<p class="date">
 										<FormattedDate date={post.data.pubDate} />
 									</p>
 								</a>
