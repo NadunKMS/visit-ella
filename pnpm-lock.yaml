@@ -29,6 +29,9 @@ importers:
       astro:
         specifier: ^4.16.3
         version: 4.16.3(rollup@2.79.2)(terser@5.34.1)(typescript@5.6.3)
+      lucide-astro:
+        specifier: ^0.453.0
+        version: 0.453.0(astro@4.16.3(rollup@2.79.2)(terser@5.34.1)(typescript@5.6.3))
       tailwindcss:
         specifier: ^3.4.13
         version: 3.4.13
@@ -2470,6 +2473,11 @@ packages:
 
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
+
+  lucide-astro@0.453.0:
+    resolution: {integrity: sha512-RSbCNNSspnCmqsMrJV9CuZXcMYACEOWdhNj0k1NBND0xdv6oruBBSkbkOOFHSZJgnFVLUevpSOU14xmGsrN+KQ==}
+    peerDependencies:
+      astro: '>=2.7.1'
 
   magic-string@0.25.9:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
@@ -6879,6 +6887,10 @@ snapshots:
   lru-cache@5.1.1:
     dependencies:
       yallist: 3.1.1
+
+  lucide-astro@0.453.0(astro@4.16.3(rollup@2.79.2)(terser@5.34.1)(typescript@5.6.3)):
+    dependencies:
+      astro: 4.16.3(rollup@2.79.2)(terser@5.34.1)(typescript@5.6.3)
 
   magic-string@0.25.9:
     dependencies:

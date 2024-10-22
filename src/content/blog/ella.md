@@ -2,7 +2,7 @@
 title: 'Travel guide Ella in Sri Lanka'
 description: 'Guide for visit ella'
 pubDate: 'Oct 15 2024'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/blog-placeholder-1.webp'
 ---
 
 Nestled amidst the lush hills of Sri Lanka, Ella is a small town known for its breathtaking scenery, cool climate, and laid-back vibe. It's a haven for nature lovers, hikers, and anyone seeking an escape from the bustle of city life. The town offers an abundance of outdoor adventures, cultural attractions, and tranquil spots to unwind. In this blog, we’ll take you through the essence of visiting Ella and highlight some of the best things to do while you're there.
@@ -18,7 +18,7 @@ Little Adam’s Peak
 One of the most accessible hikes in Ella, Little Adam’s Peak offers stunning 360-degree views of the surrounding mountains and valleys. It's an easy-to-moderate trek that’s ideal for beginners but still rewarding for seasoned hikers. The trail winds through lush tea estates, giving you a glimpse of Sri Lanka's tea-growing culture.
 
 ##### Flying Ravana Adventures
-<Image src="/blog-placeholder-2.jpg">
+<Image src="/blog-placeholder-2.webp">
 
 For the adrenaline junkies, Flying Ravana Adventures offers one of the longest and fastest ziplines in Sri Lanka. Soar over the valleys with stunning views of the surrounding forests and hills. This experience is a thrilling way to appreciate Ella’s dramatic landscapes from a bird’s eye view.[Read more](/blog/1-flying-ravana)
 
